@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        * {
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <a href="./index.html">Home</a>
+    <a href="./education.html">Education</a>
+    <a href="./work.html">Work Experience</a>
+    <a href="">Contact Me</a>
+
+    <hr />
+
+    <h1>Contact Me</h1>
+    <p>Enter you info...</p>
+    <form action="/action_page.php">
+        <label for="Uname">Your Name</label><br>
+        <input type="text" id="Uname" name="Uname"><br><br>
+        <label for="UEmail">Your E-mail:</label><br>
+        <input type="text" id="UEmail" name="UEmail"><br><br>
+
+        <label for="Gender">Gender:</label><br>
+        <select id="Gender" name="Gender">
+            <option value="Select.....">Select.....</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+
+        <p>Message</p>
+        <textarea name="Message" rows="10" cols="30"></textarea><br><br>
+        <button type="button">Send</button>
+        <button type="button">Clear</button>
+           
+    </form>
+
+</body>
+
+</html>
